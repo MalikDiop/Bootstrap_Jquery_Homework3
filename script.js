@@ -28,3 +28,18 @@ $(document).ready(function(){
     $("div.box3").hide(1000);
     });
 });
+
+
+//----Change All------------//
+$("div.box1").on( "click", "button5", function( event ) {
+    $(event.delegateTarget ).css( "background-color", "gray");
+});
+
+
+//----Hide All------------//
+
+$(document).ready(function(){
+    $("button6").click(function(){
+    $("body").hide(1000);
+    });
+});

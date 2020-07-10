@@ -10,7 +10,7 @@ div.box2{
     width: 200px;
     height: 200px;
     margin-left: 250px;
-    
+    margin-bottom: 20px;
 } 
 
 div.box3{
@@ -19,7 +19,7 @@ div.box3{
     margin-left: 250px;
     
 } 
-button1, button2, button3{
+button1, button2, button3, button5, button6{
     text-align: center;
     align-items: flex-start;
     cursor: default;
