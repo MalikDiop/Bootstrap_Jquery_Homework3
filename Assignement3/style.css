@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+h3{
+    text-decoration: underline;
+    padding: 50px 70px;
+}
+.boxesRow{
+    height: 300px;
+}
+
+.boxesRow div{
+    height: 100%;
+}
+
+.firstDiv{
+    background-color: red;
+    border: 5px solid black;
+}
+.firstDivNew{
+    background-color: pink;
+    border: 5px solid orange;
+}
+
+.changeAllColors{
+    background-color: gray;
+}
+
+.secondDiv{
+    background-color: blue;
+    border: 5px dashed yellow;
+    margin: 0 50px;
+}
+
+.thirdDiv{
+    background-color: limegreen;
+    border: 5px solid purple;
+}
+.changeTitle{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.rowBtns span{
+    background-color: #e5e5e5;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hideTitle{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
