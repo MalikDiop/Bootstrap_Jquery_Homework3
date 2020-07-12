@@ -3,7 +3,9 @@
 $(".changeBtn1").click(function(){
     console.log("click is working Btn 1")
 
-    $(".firstDiv").addClass("firstDivNew")
+    $(".firstDiv").css("background", "black");
+    $(".firstDiv").css("border-color", "red");
+    first
 });
 
 $(".changeBtn2").click(function(){
@@ -24,7 +26,8 @@ $(".changeBtn3").click(function(){
 
 $(".changeAllBtn").click(function(){
     
-    $(".firstDiv").addClass("firstDivNew");
+    $(".firstDiv").css("background", "black");
+    $(".firstDiv").css("border-color", "red");
     $(".secondDiv").css("background", "yellow");
     $(".secondDiv").css("border-color", "blue");   
     $(".thirdDiv").css("background", "purple");
