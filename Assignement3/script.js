@@ -60,19 +60,19 @@ $(document).ready(function(){
 
 //----Reset Colors------------//
 
-
-$(document).on("click", ".resetColors", function(){
-    $(this).addClass(firstDiv)
+$(document).ready(function(){
+    $(".resetColors").click(function(){
+    $(".firstDiv").css("background", "red");
+    $(".firstDiv").css("border-color", "black");
+    $(".secondDiv").css("background", "blue");
+    $(".secondDiv").css("border-color", "yellow");   
+    $(".thirdDiv").css("background", "limegreen");
+    $(".thirdDiv").css("border-color", "purple");
+    });
 });
 
-//$(document).ready(function(){
-//    $(".resetColors").click(function(){
-//    $(".firstDiv, .secondDiv, .thirdDiv").toggle(1000);
-//    });
-//});
 
-
-//----Show boxes------------//
+//----Show All boxes------------//
 
 $(document).ready(function(){
     $(".showAllBoxes").click(function(){

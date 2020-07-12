@@ -22,12 +22,14 @@ h3{
     border: 5px solid black;
 }
 .firstDivNew{
-    background-color: pink;
-    border: 5px solid orange;
+    background-color: black;
+    border: 5px solid red;
 }
 
 .changeAllColors{
-    background-color: gray;
+    background-color: black;
+    border: 5px solid red;
+
 }
 
 .secondDiv{
@@ -39,6 +41,7 @@ h3{
 .thirdDiv{
     background-color: limegreen;
     border: 5px solid purple;
+    margin: 0 5px;
 }
 .changeTitle{
     color: blue;
